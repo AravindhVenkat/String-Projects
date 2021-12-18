@@ -1,12 +1,14 @@
 # String-Projects
 
-Since String is immutable, we use StringBuffer & StringBuilder to perform operations more flexibly.
+As Strings are immutable, StringBuffer & StringBuilder are used to perform operations more flexibly.
 
-MirrorImageByStringBuilder.java, a new object of StringBuffer is created, the entered String is copied to the variable of StringBuffer and built-in method of                                               StringBuffer Variable.reverse(); is used.
+***MirrorImageByStringBuilder.java*** - The String is copied to an object of **StringBuffer**, enabling the usage of stringbuffervariable.reverse()
 
-StringCharacterDemo.java file, Strings are converted to character array to perform methods
+***StringCharacterDemo.java***  - Strings are converted to character array to perform methods
 
-StringFunctions.java - contains basic string functions
+***StringFunctions.java*** - Contains various String functions
 
-StringModifyNumber.java - number in parameter is converted to String and it is then converted into Character Elements, number changing criteria applied, then
-                          String Builder class is used to append strings, then it is converted back into a integer number
+***StringModifyNumber.java***- Integer conversion to String;
+    												   String conversion into an array of Character elements; 
+                               **StringBuilder** provides functionality to **append** Character element to strings;
+                               String converion to Integer.	
